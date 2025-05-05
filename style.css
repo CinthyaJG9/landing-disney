@@ -58,4 +58,43 @@
     font-size: 0.9rem;
     color: #555;
   }
+
+  #searchInput {
+    margin: 1rem auto;
+    display: block;
+    padding: 0.5rem;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  #pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+  
+  #pagination button {
+    background-color: #1e90ff;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  #pagination button:hover {
+    background-color: #0d75d8;
+  }
+  
+  #pagination span {
+    font-weight: bold;
+    font-size: 1.1rem;
+  }
   

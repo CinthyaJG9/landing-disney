@@ -7,12 +7,19 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header>
-    <h1>Personajes de Disney</h1>
-  </header>
-  <main>
-    <section id="characters-grid"></section>
-  </main>
-  <script src="script.js"></script>
-</body>
+    <header>
+      <h1>Personajes de Disney</h1>
+      <input type="text" id="searchInput" placeholder="Buscar personaje..." />
+    </header>
+    <main>
+      <section id="characters-grid"></section>
+      <div id="pagination">
+        <button id="prevPage">⬅ Anterior</button>
+        <span id="currentPage">1</span>
+        <button id="nextPage">Siguiente ➡</button>
+      </div>
+    </main>
+    <script src="script.js"></script>
+  </body>
+  
 </html>
